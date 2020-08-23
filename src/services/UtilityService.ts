@@ -1,7 +1,7 @@
-import User from './models/User'
-import Resource from './models/Resource'
+import User from '../models/User'
+import Resource from '../models/Resource'
 import PromptService from './PromptService'
-import Role from './models/Role'
+import Role from '../models/Role'
 
 enum ALLACTIONS {
     READ,

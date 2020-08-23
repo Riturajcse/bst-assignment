@@ -1,5 +1,5 @@
-import app from './App'
-import PromptService from './PromptService'
+import app from './services/App'
+import PromptService from './services/PromptService'
 
 const mainApp = new app();
 

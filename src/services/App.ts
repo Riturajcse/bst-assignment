@@ -1,11 +1,9 @@
-import User from './models/User'
-import Utility from './Utility'
-import PromptService from './PromptService'
+import User from '../models/User'
+import Utility from './UtilityService'
 
 const UtilityService = new Utility();
 
 class App {
-    public loggedInUser:User;
     public UtilityService:Utility;
     public userRoles : any[]
 
