@@ -10,7 +10,7 @@
 
 ## Currently populated resources with their role based access configuration in the system
 
-![alt text](bsFig.png)
+![alt text](bsFig1.png)
 
 
 ## Command-line interaction example
