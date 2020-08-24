@@ -3,6 +3,10 @@
 2. Install the node modules (npm install)
 3. Start the server (npm start)
 
+## currently populated resources with their role based access configuration in the system
+
+![alt text](bsFig.png)
+
 
 ```
 > ts-server@1.0.0 start /Users/gamechange/Personal/assignments/role-based-access
