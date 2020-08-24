@@ -3,6 +3,16 @@
 2. Install the node modules (npm install)
 3. Start the server (npm start)
 
+## Currently populated users in the system
+```
+email: admin@gmail.com
+password: 1234
+role: ADMIN
+
+email: user1@gmail.com
+password: 1234
+role: USER
+```
 
 ## Currently populated roles in the system
 
