@@ -5,7 +5,6 @@ const UtilityService = new Utility();
 
 class App {
     public UtilityService:Utility;
-    public userRoles : any[]
 
     constructor() {
         this.UtilityService = new Utility()
