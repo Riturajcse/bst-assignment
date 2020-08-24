@@ -40,7 +40,7 @@ Press 2 for viewing your roles
 Press 3 for accessing resource
 Press 4 for exit: 3
 ? Please enter action type: WRITE
-? Please enter resource name: R2
+? Please enter resource name: Res2
 Permission denied!
 ? 
 Press 1 for login as another user
@@ -48,7 +48,7 @@ Press 2 for viewing your roles
 Press 3 for accessing resource
 Press 4 for exit: 3
 ? Please enter action type: READ
-? Please enter resource name: R2
+? Please enter resource name: Res2
 Permission granted!
 ? 
 Press 1 for login as another user
@@ -56,7 +56,7 @@ Press 2 for viewing your roles
 Press 3 for accessing resource
 Press 4 for exit: 3
 ? Please enter action type: WRITE
-? Please enter resource name: R3
+? Please enter resource name: Res3
 Permission granted!
 ? 
 Press 1 for login as another user

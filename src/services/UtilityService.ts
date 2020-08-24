@@ -34,17 +34,17 @@ class Utility {
     public createResouces(): void {
         let res1Map = new Map<any, any>();
         res1Map.set(AllRoles.ADMIN,[ALLACTIONS.READ, ALLACTIONS.WRITE, ALLACTIONS.DELETE]);
-        let res1 = new Resource('R1', res1Map);
+        let res1 = new Resource('Res1', res1Map);
         this.Resources.push(res1);
         let res2Map = new Map<any, any>();
         res2Map.set(AllRoles.ADMIN,[ALLACTIONS.READ, ALLACTIONS.WRITE, ALLACTIONS.DELETE]);
         res2Map.set(AllRoles.USER,[ALLACTIONS.READ]);
-        let res2 = new Resource('R2', res2Map);
+        let res2 = new Resource('Res2', res2Map);
         this.Resources.push(res2);
         let res3Map = new Map<any, any>();
         res3Map.set(AllRoles.ADMIN,[ALLACTIONS.READ, ALLACTIONS.WRITE, ALLACTIONS.DELETE]);
         res3Map.set(AllRoles.USER,[ALLACTIONS.READ,ALLACTIONS.WRITE, ALLACTIONS.DELETE]);
-        let res3 = new Resource('R3', res3Map);
+        let res3 = new Resource('Res3', res3Map);
         this.Resources.push(res3);
     }
 
@@ -194,7 +194,7 @@ class Utility {
             userRoles.forEach(userRole => {
                if (resource.accessObj.has(userRole)) {
                    let allowedActions = resource.accessObj.get(userRole);
-                   if (allowedActions.indexOf(requestedAction) != -1) {
+                   if (allowedActions.indexOf(requestedAction) != -1 && !permissionGranted) {
                        permissionGranted = true;
                        console.log('Permission granted!');
                    }
