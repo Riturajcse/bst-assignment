@@ -3,6 +3,11 @@
 2. Install the node modules (npm install)
 3. Start the server (npm start)
 
+
+## Currently populated roles in the system
+
+![alt text](roles.png)
+
 ## Currently populated resources with their role based access configuration in the system
 
 ![alt text](bsFig.png)
